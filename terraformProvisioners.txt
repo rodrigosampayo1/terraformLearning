@@ -1,0 +1,9 @@
+Within terraform code, each individual resource can have its own
+"provisioner" defining the connection method (if required such as SSH or WinRM)
+and the actions/commands or script to execute.
+
+There are 2 types of provisioners which you can set the run when a resource is created/destroyed:
+ 1. Creation-time 
+ 2. Destroy-time
+
+Terrafom es declarativo, asi que no trackea los provisioners
