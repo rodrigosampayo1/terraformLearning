@@ -11,4 +11,26 @@ variable "nombreDeEC2" {
 
 #Bases types:
 #1. string, 2. number, 3.bool
-#Complex
+#Complext types
+# list, set, map, object, tuple
+
+variable "availability_zone_names" {
+  type = list(string)
+  default = ["us-east-1"]
+}
+
+variable "docker_ports" {
+  type = list(object({ #its define the type of variable
+    internal = number
+    extermal = number
+    protocol = string
+  }))
+  default = [#its define the default value of these
+    {
+      internal = 8300
+      external = 8300
+      protocol = "tcp"
+    }
+  ]
+
+}
