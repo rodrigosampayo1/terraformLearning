@@ -11,3 +11,4 @@ variable "nombreDeEC2" {
 
 #Bases types:
 #1. string, 2. number, 3.bool
+#Complex
