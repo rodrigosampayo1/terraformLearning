@@ -88,6 +88,7 @@ the workspace is store on a repo, like github or terraform cloud
 the variable are stored in Terraform cloud workspace, not locally not shell
 States are store in TC workspace, cant be stored on disk or remote backend
 Credentials and scretes, are stored in workspace TC, as SENSITIVE variables.
-				
+-offers Sentinel integration cost estimation on terraform plans
+-different pay tiers				
 
 

@@ -5,6 +5,9 @@ el comando de terraform apply, lo vuelve a crear.
 De hecho, hace esto:
 It will mark the resource as tainted in the state file and it will be deleted and re-created upon the next terraform apply.
 
+terraform validate
+
+terraform state
 
 terraform import Resource ResourceID -> it brings external, unmanaged resources into your terraform config to be TRACKED and MANAGED by it
 

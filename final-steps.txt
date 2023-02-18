@@ -1,0 +1,10 @@
+exam study guide:
+https://developer.hashicorp.com/terraform/tutorials/certification/associate-study
+
+exam review guide:
+https://developer.hashicorp.com/terraform/tutorials/certification/associate-review
+
+sample questions:
+https://developer.hashicorp.com/terraform/tutorials/certification/associate-questions
+
+
