@@ -13,6 +13,8 @@ terraform import Resource ResourceID -> it brings external, unmanaged resources 
 
 terraform plan
 
+terraform_remote_state
+
 terraform apply -> crea
 
 terraform destroy -> destruy
