@@ -1,0 +1,7 @@
+terraform fmt -> make format
+terraform taint resource
+terraform import
+terraform plan
+terraform apply -> crea
+terraform destroy -> destruy
+--auto-approve -> te evita que te pregunte si queres destruir o crear
