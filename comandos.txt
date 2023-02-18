@@ -1,7 +1,51 @@
 terraform fmt -> make format
-terraform taint resource
-terraform import
+
+terraform taint aws_instance.myVM -> Mancha al recurso, para que al volver a aplicar
+el comando de terraform apply, lo vuelve a crear.
+De hecho, hace esto:
+It will mark the resource as tainted in the state file and it will be deleted and re-created upon the next terraform apply.
+
+
+terraform import Resource ResourceID -> it brings external, unmanaged resources into your terraform config to be TRACKED and MANAGED by it
+
 terraform plan
+
 terraform apply -> crea
+
 terraform destroy -> destruy
 --auto-approve -> te evita que te pregunte si queres destruir o crear
+
+terraform workspace -> Te permite manejar deployment por ambientes
+por defecto esta en default, pero podes crear mas. Es como una branch
+${terraform.workspace} asi se puede ver el valor de la variable del workspace
+- terraform workspace list -> como git branch, te muestra 
+- terraform workspace new name-> crea un workspace, y lo selecciona
+- terraform workspace seleect NameWorkspace -> cambiar de workspace
+
+provider "aws" {
+	region = terraform.workspace == "default" ? "us-east-1" : "us-west-2"
+}
+
+Si queres usarlo dentro de terraform, como variable -> ${terraform.workspace}
+Ejemplo:
+
+tags = {
+	Name = " ${terraform.workspace}-securitygroup "
+}
+
+
+terraform.tfstate -> es un archivo que tiene todo lo creado,destruido, como un log
+Por defecto, el workspace por defecto, crea el terraform state en la carpeta local. 
+Si se crean workspace nuevos, sus terraform state se guardan en terraform.state.d
+
+terraform state list -> te muestra todos los recursos creados del workspace actual
+Comandos de terraform workspace: new, show, list, delete
+
+TF_LOG=TRACE
+First you need to create the environment variable, using EXPORT TF_LOG
+and then TF_LOG=TRACE, to show the most verbose debug logs when terraform run
+TF_LOG could be set to TRACE, DEBUG, INFO, WARN or ERROR
+
+Ejemplo
+export TF_LOG = "TRACE"
+export TF_LOG_PATH = ./terraform

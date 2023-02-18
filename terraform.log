@@ -1,0 +1,228 @@
+2023-02-18T10:35:06.684-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:35:06.686-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:35:06.686-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:35:06.686-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:35:06.686-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:35:06.686-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:35:06.686-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:35:06.686-0300 [INFO]  CLI args: []string{"terraform", "workspace", "new", "develop"}
+2023-02-18T10:35:06.686-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:35:06.686-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:35:06.686-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:35:06.686-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:35:06.687-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:35:06.689-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:35:06.689-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:35:06.689-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:06.689-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:06.691-0300 [INFO]  CLI command args: []string{"workspace", "new", "develop"}
+2023-02-18T10:35:47.080-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:35:47.082-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:35:47.082-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:35:47.082-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:35:47.082-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:35:47.082-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:35:47.082-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:35:47.082-0300 [INFO]  CLI args: []string{"terraform", "workspace", "new", "develop"}
+2023-02-18T10:35:47.082-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:35:47.082-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:35:47.082-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:35:47.082-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:35:47.082-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:35:47.082-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:35:47.083-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:35:47.083-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:47.083-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:47.083-0300 [INFO]  CLI command args: []string{"workspace", "new", "develop"}
+2023-02-18T10:35:47.092-0300 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-02-18T10:35:47.093-0300 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-02-18T10:35:47.093-0300 [DEBUG] New state was assigned lineage "65501bb9-b9b0-8296-7a9a-f00ec791f48e"
+2023-02-18T10:35:47.093-0300 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-02-18T10:35:47.093-0300 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-02-18T10:35:47.094-0300 [DEBUG] checking for provisioner in "."
+2023-02-18T10:35:47.110-0300 [DEBUG] checking for provisioner in "/usr/local/bin"
+2023-02-18T10:35:47.110-0300 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-02-18T10:35:47.113-0300 [TRACE] backend/local: state manager for workspace "develop" will:
+ - read initial snapshot from terraform.tfstate.d/develop/terraform.tfstate
+ - write new snapshots to terraform.tfstate.d/develop/terraform.tfstate
+ - create any backup at terraform.tfstate.d/develop/terraform.tfstate.backup
+2023-02-18T10:35:57.681-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:35:57.682-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:35:57.682-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:35:57.682-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:35:57.682-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:35:57.682-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:35:57.682-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:35:57.682-0300 [INFO]  CLI args: []string{"terraform", "workspace", "ls"}
+2023-02-18T10:35:57.682-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:35:57.682-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:35:57.682-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:35:57.682-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:35:57.682-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:35:57.683-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:35:57.683-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:35:57.683-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:57.683-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:35:57.683-0300 [INFO]  CLI command args: []string{"workspace", "ls"}
+2023-02-18T10:36:05.371-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:36:05.373-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:36:05.373-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:36:05.373-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:36:05.373-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:36:05.373-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:36:05.373-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:36:05.373-0300 [INFO]  CLI args: []string{"terraform", "workspace", "show"}
+2023-02-18T10:36:05.373-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:36:05.373-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:36:05.373-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:36:05.373-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:36:05.373-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:36:05.374-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:36:05.374-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:36:05.374-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:05.374-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:05.374-0300 [INFO]  CLI command args: []string{"workspace", "show"}
+2023-02-18T10:36:16.192-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:36:16.193-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:36:16.193-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:36:16.193-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:36:16.193-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:36:16.193-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:36:16.193-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:36:16.193-0300 [INFO]  CLI args: []string{"terraform", "workspace", "list"}
+2023-02-18T10:36:16.193-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:36:16.193-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:36:16.193-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:36:16.193-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:36:16.193-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:36:16.194-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:36:16.194-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:36:16.194-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:16.194-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:16.194-0300 [INFO]  CLI command args: []string{"workspace", "list"}
+2023-02-18T10:36:16.202-0300 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-02-18T10:36:16.202-0300 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-02-18T10:36:16.202-0300 [DEBUG] New state was assigned lineage "c41a72ef-2ea5-f15b-1b3a-67b024459b8d"
+2023-02-18T10:36:16.202-0300 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-02-18T10:36:16.202-0300 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-02-18T10:36:16.203-0300 [DEBUG] checking for provisioner in "."
+2023-02-18T10:36:16.205-0300 [DEBUG] checking for provisioner in "/usr/local/bin"
+2023-02-18T10:36:16.205-0300 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-02-18T10:36:54.021-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:36:54.022-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:36:54.022-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:36:54.022-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:36:54.022-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:36:54.022-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:36:54.022-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:36:54.022-0300 [INFO]  CLI args: []string{"terraform", "state", "list"}
+2023-02-18T10:36:54.023-0300 [TRACE] Stdout is a terminal of width 106
+2023-02-18T10:36:54.023-0300 [TRACE] Stderr is a terminal of width 106
+2023-02-18T10:36:54.023-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:36:54.023-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:36:54.023-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:36:54.023-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:36:54.023-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:36:54.023-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:54.023-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:36:54.023-0300 [INFO]  CLI command args: []string{"state", "list"}
+2023-02-18T10:36:54.030-0300 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-02-18T10:36:54.030-0300 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-02-18T10:36:54.030-0300 [DEBUG] New state was assigned lineage "e87e6bce-91c8-7a90-fa9c-f9011f1b1300"
+2023-02-18T10:36:54.030-0300 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-02-18T10:36:54.030-0300 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-02-18T10:36:54.031-0300 [DEBUG] checking for provisioner in "."
+2023-02-18T10:36:54.034-0300 [DEBUG] checking for provisioner in "/usr/local/bin"
+2023-02-18T10:36:54.034-0300 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-02-18T10:36:54.035-0300 [TRACE] backend/local: state manager for workspace "develop" will:
+ - read initial snapshot from terraform.tfstate.d/develop/terraform.tfstate
+ - write new snapshots to terraform.tfstate.d/develop/terraform.tfstate
+ - create any backup at terraform.tfstate.d/develop/terraform.tfstate.backup
+2023-02-18T10:36:54.035-0300 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate.d/develop/terraform.tfstate
+2023-02-18T10:36:54.035-0300 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2023-02-18T10:36:54.035-0300 [TRACE] statemgr.Filesystem: read nil snapshot
+2023-02-18T10:38:31.346-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:38:31.348-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:38:31.348-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:38:31.348-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:38:31.348-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:38:31.348-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:38:31.348-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:38:31.348-0300 [INFO]  CLI args: []string{"terraform", "state", "l"}
+2023-02-18T10:38:31.348-0300 [TRACE] Stdout is a terminal of width 121
+2023-02-18T10:38:31.348-0300 [TRACE] Stderr is a terminal of width 121
+2023-02-18T10:38:31.348-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:38:31.348-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:38:31.348-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:38:31.349-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:38:31.349-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:38:31.349-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:38:31.349-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:38:31.349-0300 [INFO]  CLI command args: []string{"state", "l"}
+2023-02-18T10:39:37.484-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:39:37.486-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:39:37.486-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:39:37.486-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:39:37.486-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:39:37.486-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:39:37.486-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:39:37.486-0300 [INFO]  CLI args: []string{"terraform", "fmt"}
+2023-02-18T10:39:37.486-0300 [TRACE] Stdout is a terminal of width 95
+2023-02-18T10:39:37.486-0300 [TRACE] Stderr is a terminal of width 95
+2023-02-18T10:39:37.486-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:39:37.486-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:39:37.486-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:39:37.486-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:39:37.486-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:39:37.486-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:39:37.486-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:39:37.487-0300 [INFO]  CLI command args: []string{"fmt"}
+2023-02-18T10:39:37.487-0300 [TRACE] terraform fmt: looking for files in .
+2023-02-18T10:39:37.488-0300 [TRACE] terraform fmt: Formatting main.tf
+2023-02-18T10:39:37.494-0300 [TRACE] terraform fmt: Formatting outputs.tf
+2023-02-18T10:39:37.498-0300 [TRACE] terraform fmt: Formatting variables.tf
+2023-02-18T10:39:45.255-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T10:39:45.256-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T10:39:45.256-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T10:39:45.256-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T10:39:45.256-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T10:39:45.256-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T10:39:45.256-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T10:39:45.256-0300 [INFO]  CLI args: []string{"terraform", "destroy", "--auto-approve"}
+2023-02-18T10:39:45.256-0300 [TRACE] Stdout is a terminal of width 95
+2023-02-18T10:39:45.256-0300 [TRACE] Stderr is a terminal of width 95
+2023-02-18T10:39:45.256-0300 [TRACE] Stdin is a terminal
+2023-02-18T10:39:45.256-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T10:39:45.256-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T10:39:45.256-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T10:39:45.256-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T10:39:45.256-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T10:39:45.256-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T10:39:45.257-0300 [INFO]  CLI command args: []string{"destroy", "--auto-approve"}
+2023-02-18T10:39:45.270-0300 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-02-18T10:39:45.270-0300 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-02-18T10:39:45.270-0300 [DEBUG] New state was assigned lineage "c198490a-134e-ef0e-799b-bc0ace4eb055"
+2023-02-18T10:39:45.270-0300 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-02-18T10:39:45.270-0300 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-02-18T10:39:45.271-0300 [DEBUG] checking for provisioner in "."
+2023-02-18T10:39:45.273-0300 [DEBUG] checking for provisioner in "/usr/local/bin"
+2023-02-18T10:39:45.273-0300 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-02-18T10:39:45.278-0300 [INFO]  backend/local: starting Apply operation
+2023-02-18T10:39:45.279-0300 [TRACE] backend/local: requesting state manager for workspace "develop"
+2023-02-18T10:39:45.279-0300 [TRACE] backend/local: state manager for workspace "develop" will:
+ - read initial snapshot from terraform.tfstate.d/develop/terraform.tfstate
+ - write new snapshots to terraform.tfstate.d/develop/terraform.tfstate
+ - create any backup at terraform.tfstate.d/develop/terraform.tfstate.backup
+2023-02-18T10:39:45.279-0300 [TRACE] backend/local: requesting state lock for workspace "develop"
+2023-02-18T10:39:45.281-0300 [TRACE] statemgr.Filesystem: preparing to manage state snapshots at terraform.tfstate.d/develop/terraform.tfstate
+2023-02-18T10:39:45.282-0300 [TRACE] statemgr.Filesystem: no previously-stored snapshot exists
+2023-02-18T10:39:45.282-0300 [TRACE] statemgr.Filesystem: locking terraform.tfstate.d/develop/terraform.tfstate using fcntl flock
+2023-02-18T10:39:45.282-0300 [TRACE] statemgr.Filesystem: writing lock metadata to terraform.tfstate.d/develop/.terraform.tfstate.lock.info
+2023-02-18T10:39:45.283-0300 [TRACE] backend/local: reading remote state for workspace "develop"
+2023-02-18T10:39:45.283-0300 [TRACE] statemgr.Filesystem: reading latest snapshot from terraform.tfstate.d/develop/terraform.tfstate
+2023-02-18T10:39:45.283-0300 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2023-02-18T10:39:45.283-0300 [TRACE] statemgr.Filesystem: read nil snapshot
+2023-02-18T10:39:45.283-0300 [TRACE] backend/local: populating backend.LocalRun for current working directory
+2023-02-18T10:39:45.289-0300 [TRACE] Config.VerifyDependencySelections: provider registry.terraform.io/hashicorp/aws has no lock file entry to satisfy "~> 4.16"
+2023-02-18T10:39:45.289-0300 [TRACE] statemgr.Filesystem: removing lock metadata file terraform.tfstate.d/develop/.terraform.tfstate.lock.info
+2023-02-18T10:39:45.290-0300 [TRACE] statemgr.Filesystem: unlocking terraform.tfstate.d/develop/terraform.tfstate using fcntl flock
