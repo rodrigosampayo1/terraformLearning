@@ -1,0 +1,93 @@
+Best practices:
+
+1. hashicorp sentinel, policy as code
+- enforce policies on your code, to stop dangerous or malicious terraform code
+before terraform apply
+- sentinel has his own code
+- used between plan and apply code
+- benefits -> prevent deployment on an error envinronm(dev,uat,prod)
+	   -> prevent accidental deployments
+	   -> easier understanding, better collaboration
+	   -> version control
+	   -> testing & automation on CI/CD
+	   -> enforce CIS standards across AWS accounts
+	   -> check to make sure only t3.micro types are used
+	   -> ensure dont allow traffic on port 22, on EC2
+
+No entra en el examen
+example: de que cada recurso de AWS tenga un tag
+
+import "tfplan"
+
+main = rule {
+	all tfplan.resource.aws_instance as _, instances {
+		all instances _, r{
+			(length(r.applied.tags) else 0) > 0
+		}
+	}
+}
+
+
+2. terraform vault provider -> like azure key vault
+Vault, its a secret managment softwware, save temporary credentials to users in place of actual long-live credentials
+For example, AWS CLI access keys
+Vault, dynamically provisions credentials and rotates them
+Vaul, generate crypto keys to encrypt data at REST and TRANSIT
+Vault can work with Secrets (username and password), database creds, API tokens, TLS certificates.
+Vault need to define the schedule within Vault, no se hace desde terraform.
+Vault te permite guardar sensitive data
+
+
+Workflow -> 1. Vault admin store long-lived creds in Vault, 
+		Vault creates short-livde creds
+	 -> 2. As Terraform User, integrate Vault within terraform code 
+		using the VAULT provider, like any other provider
+	 -> 3. terraform apply
+	 -> 4. Terraform reachs out to Vault for temporary credentials
+	 -> 5. Vault will check the ACLs and permissions
+		and returns short-lived credentials
+	 -> 6. Terraform deploys using the creds returned by Vault
+		and after a configurable amount of time,
+		those temp credentials are DELETED by Vault.
+
+Benefits:
+	developers dont need to manage LONG-LIVED creds
+	inject secrets in terraform at runtime
+	encrypt key at rest and in transit
+	centralize
+
+3. Difference between terraform OSS and Enterprise:
+
+a. Terraform Public registry: 
+-> a repository available terraform providers and modules to build and deploy resources
+-> it has official providers and 3rd party modules
+- Al crear codigo en terraform, POR DEFAULT, busca en ese repositorio publico,
+Este buscara en el proveedor o modulo publico, y si no, busca en proveedor o registros Privados
+Esto pasa en "terraform init"
+- Terraform te permite publicar y compartir tus modulos
+
+https://registry.terraform.io 
+
+Ahi podes buscar proveedores oficiales, y de usuarios que crearn/modifican
+
+b. Terraform Cloud Workspace
+hace lo mismo que con el workspace publico, pero hay una pequenia diferencia:
+all hosted in the cloud instead of your local system
+- Mantiene un record de todas las ejecuciones
+- Todos los comandos de Terraform son ejecutados y manejados en VM de terraform Cloud, y puede ser utilizado con CI/CD tools
+- Easy access to shared state and secret data
+- It helps teams use Terraform together, collaborative
+
+
+c. Differences between OSS and Enterprise workspace:
+
+--OSS workspace, te permite guardar state files diferrentes en el mismo directorio
+
+--Enterpise workspace: 
+the workspace is store on a repo, like github or terraform cloud
+the variable are stored in Terraform cloud workspace, not locally not shell
+States are store in TC workspace, cant be stored on disk or remote backend
+Credentials and scretes, are stored in workspace TC, as SENSITIVE variables.
+				
+
+
